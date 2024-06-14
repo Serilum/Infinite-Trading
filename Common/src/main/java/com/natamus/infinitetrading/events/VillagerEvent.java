@@ -12,7 +12,11 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.phys.EntityHitResult;
 
 public class VillagerEvent {
-	public static InteractionResult onVillagerClick(Player player, Level world, InteractionHand hand, Entity target, EntityHitResult hitResult) {
+	public static InteractionResult onVillagerClick(Player player, Level level, InteractionHand hand, Entity target, EntityHitResult hitResult) {
+		if (level.isClientSide) {
+			return InteractionResult.PASS;
+		}
+
 		if (target instanceof Villager) {
 			if (ConfigHandler.villagerInfiniteTrades) {
 				Villager villager = (Villager) target;
