@@ -6,7 +6,7 @@ logoFile="icon.png"
 
 [[mods]]
 modId="infinitetrading"
-version="4.3"
+version="4.4"
 displayName="Infinite Trading"
 displayURL="https://serilum.com/mod/infinite-trading"
 authors="Rick South"
@@ -14,7 +14,7 @@ description='''Prevents villager and wandering trader trades from locking up, ma
 '''
 credits='''Thank you very much to my Membership sponsors for supporting the development of this mod:  
 
-Alister, Andrean Olgo, aternosorg, BirdieMiner, Cherriesaurus, Jeremy Langford, Michael W. S., Rare Students, Shana Gitnick, Tyler Behl   
+Alister, Andrean Olgo, aternosorg, BirdieMiner, Cherriesaurus, Jeremy Langford, Michael W. S., Shana Gitnick, Sukhmai, Tyler Behl   
 
 If you would like to contribute too, check out https://serilum.com/donate. Appreciate it! <3   
 '''
