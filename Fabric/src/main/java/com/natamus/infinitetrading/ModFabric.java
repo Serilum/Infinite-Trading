@@ -1,6 +1,7 @@
 package com.natamus.infinitetrading;
 
 import com.natamus.collective.check.RegisterMod;
+import com.natamus.collective.check.ShouldLoadCheck;
 import com.natamus.infinitetrading.events.VillagerEvent;
 import com.natamus.infinitetrading.util.Reference;
 import net.fabricmc.api.ModInitializer;
@@ -10,6 +11,10 @@ public class ModFabric implements ModInitializer {
 	
 	@Override
 	public void onInitialize() {
+		if (!ShouldLoadCheck.shouldLoad(Reference.MOD_ID)) {
+			return;
+		}
+
 		setGlobalConstants();
 		ModCommon.init();
 
