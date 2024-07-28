@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "infinitetrading",
-  "version": "4.4",
+  "version": "4.5",
 
   "name": "Infinite Trading",
   "description": "Prevents villager and wandering trader trades from locking up, making them be always available.",
@@ -23,7 +23,7 @@
     "fabric": "*",
     "minecraft": ">=1.20",
     "java": ">=21",
-    "collective": ">=7.61"
+    "collective": ">=7.78"
   },
 
   "custom": {
@@ -44,12 +44,10 @@
 	  " Alister",
 	  " Andrean Olgo",
 	  " aternosorg",
-	  " BirdieMiner",
 	  " Cherriesaurus",
-	  " Jeremy Langford",
 	  " Michael W. S.",
+	  " Nahuel Fernandez",
 	  " Shana Gitnick",
-	  " Sukhmai",
 	  " Tyler Behl"
   ]
 }
