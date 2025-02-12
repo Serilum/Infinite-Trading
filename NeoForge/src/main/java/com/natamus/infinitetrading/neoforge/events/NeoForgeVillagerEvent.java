@@ -3,9 +3,7 @@ package com.natamus.infinitetrading.neoforge.events;
 import com.natamus.infinitetrading.events.VillagerEvent;
 import net.neoforged.neoforge.event.entity.player.PlayerInteractEvent;
 import net.neoforged.bus.api.SubscribeEvent;
-import net.neoforged.fml.common.EventBusSubscriber;
 
-@EventBusSubscriber
 public class NeoForgeVillagerEvent {
 	@SubscribeEvent
 	public static void onVillagerClick(PlayerInteractEvent.EntityInteract e) {
