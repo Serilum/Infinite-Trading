@@ -1,0 +1,12 @@
+package com.natamus.infinitetrading.neoforge.events;
+
+import com.natamus.infinitetrading.events.VillagerEvent;
+import net.neoforged.neoforge.event.entity.player.PlayerInteractEvent;
+import net.neoforged.bus.api.SubscribeEvent;
+
+public class NeoForgeVillagerEvent {
+	@SubscribeEvent
+	public static void onVillagerClick(PlayerInteractEvent.EntityInteractSpecific e) {
+		VillagerEvent.onVillagerClick(e.getEntity(), e.getLevel(), e.getHand(), e.getTarget(), null);
+	}
+}
