@@ -3,9 +3,7 @@ package com.natamus.infinitetrading;
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
 import com.natamus.infinitetrading.forge.config.IntegrateForgeConfig;
-import com.natamus.infinitetrading.forge.events.ForgeVillagerEvent;
 import com.natamus.infinitetrading.util.Reference;
-import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
@@ -32,7 +30,7 @@ public class ModForge {
 	}
 
 	private void loadComplete(final FMLLoadCompleteEvent event) {
-    	MinecraftForge.EVENT_BUS.register(ForgeVillagerEvent.class);
+
 	}
 
 	private static void setGlobalConstants() {
