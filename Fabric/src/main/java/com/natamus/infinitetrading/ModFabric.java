@@ -2,10 +2,8 @@ package com.natamus.infinitetrading;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.infinitetrading.events.VillagerEvent;
 import com.natamus.infinitetrading.util.Reference;
 import net.fabricmc.api.ModInitializer;
-import net.fabricmc.fabric.api.event.player.UseEntityCallback;
 
 public class ModFabric implements ModInitializer {
 	
@@ -24,9 +22,7 @@ public class ModFabric implements ModInitializer {
 	}
 
 	private void loadEvents() {
-		UseEntityCallback.EVENT.register((player, world, hand, entity, hitResult) -> {
-			return VillagerEvent.onVillagerClick(player, world, hand, entity, hitResult);
-		});
+
 	}
 
 	private static void setGlobalConstants() {

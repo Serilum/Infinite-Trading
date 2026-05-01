@@ -4,13 +4,12 @@
   "package": "com.natamus.infinitetrading.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
-
+    "AbstractVillagerMixin",
+    "MerchantOfferMixin"
   ],
   "client": [
-  
   ],
   "server": [
-
   ],
   "injectors": {
     "defaultRequire": 1

@@ -3,9 +3,7 @@ package com.natamus.infinitetrading;
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
 import com.natamus.infinitetrading.neoforge.config.IntegrateNeoForgeConfig;
-import com.natamus.infinitetrading.neoforge.events.NeoForgeVillagerEvent;
 import com.natamus.infinitetrading.util.Reference;
-import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.ModLoadingContext;
 import net.neoforged.fml.common.Mod;
@@ -30,7 +28,7 @@ public class ModNeoForge {
 	}
 
 	private void loadComplete(final FMLLoadCompleteEvent event) {
-		NeoForge.EVENT_BUS.register(NeoForgeVillagerEvent.class);
+
 	}
 
 	private static void setGlobalConstants() {

@@ -12,6 +12,7 @@ public class ConfigHandler extends DuskConfig {
 
 	@Entry public static boolean wanderingTraderInfiniteTrades = true;
 	@Entry public static boolean villagerInfiniteTrades = true;
+	@Entry public static boolean fallbackInfiniteTrades = true;
 
 	public static void initConfig() {
 		configMetaData.put("wanderingTraderInfiniteTrades", Arrays.asList(
@@ -19,6 +20,9 @@ public class ConfigHandler extends DuskConfig {
 		));
 		configMetaData.put("villagerInfiniteTrades", Arrays.asList(
 			"When enabled, the trades of villagers will never lock up."
+		));
+		configMetaData.put("fallbackInfiniteTrades", Arrays.asList(
+			"If abstract villagers that are not a villager or wandering trader, from other mods, should have infinite trades."
 		));
 
 		DuskConfig.init(Reference.NAME, Reference.MOD_ID, ConfigHandler.class);
