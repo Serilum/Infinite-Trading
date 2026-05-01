@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "infinitetrading",
-  "version": "4.6",
+  "version": "5.0",
 
   "name": "Infinite Trading",
   "description": "Prevents villager and wandering trader trades from locking up, making them be always available.",
@@ -17,13 +17,16 @@
 
   "environment": "*",
   "entrypoints": { "main": [ "com.natamus.infinitetrading.ModFabric" ], "modmenu": [ "com.natamus.infinitetrading.fabric.config.IntegrateModMenu" ] },
+  "mixins": [
+    "infinitetrading.mixins.json"
+  ],
 
   "depends": {
     "fabricloader": ">=0.18.0",
     "fabric-api": "*",
     "minecraft": ">=26.1",
     "java": ">=25",
-    "collective": ">=8.17"
+    "collective": ">=8.21"
   },
 
   "custom": {
@@ -42,14 +45,11 @@
 	  " ",
 	  "Membership sponsors:",
 	  " akanealw",
-	  " Alister",
 	  " Andrean Olgo",
 	  " aternosorg",
 	  " Cherriesaurus",
 	  " MWS",
-	  " t128",
 	  " Tyler Behl",
-	  " XAgent",
-	  " ตัวตรึง พระนคร"
+	  " XAgent"
   ]
 }
