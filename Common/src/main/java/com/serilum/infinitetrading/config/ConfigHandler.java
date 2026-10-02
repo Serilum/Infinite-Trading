@@ -1,7 +1,7 @@
-package com.natamus.infinitetrading.config;
+package com.serilum.infinitetrading.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.infinitetrading.util.Reference;
+import com.serilum.infinitetrading.util.Reference;
 
 import java.util.Arrays;
 import java.util.HashMap;

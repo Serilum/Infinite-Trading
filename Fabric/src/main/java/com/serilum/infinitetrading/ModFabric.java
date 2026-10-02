@@ -1,8 +1,8 @@
-package com.natamus.infinitetrading;
+package com.serilum.infinitetrading;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.infinitetrading.util.Reference;
+import com.serilum.infinitetrading.util.Reference;
 import net.fabricmc.api.ModInitializer;
 
 public class ModFabric implements ModInitializer {
