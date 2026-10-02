@@ -1,7 +1,7 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "com.natamus.infinitetrading.mixin",
+  "package": "com.serilum.infinitetrading.mixin",
   "compatibilityLevel": "JAVA_25",
   "mixins": [
     "AbstractVillagerMixin",

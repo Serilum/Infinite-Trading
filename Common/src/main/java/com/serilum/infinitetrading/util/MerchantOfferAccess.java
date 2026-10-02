@@ -1,4 +1,4 @@
-package com.natamus.infinitetrading.util;
+package com.serilum.infinitetrading.util;
 
 import net.minecraft.world.entity.npc.villager.AbstractVillager;
 
