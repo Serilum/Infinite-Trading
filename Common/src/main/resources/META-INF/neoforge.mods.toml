@@ -1,28 +1,28 @@
 modLoader="javafml"
 loaderVersion="*"
-license="All rights reserved"
+license="All Rights Reserved"
 issueTrackerURL="https://github.com/Serilum/.issue-tracker/labels/Mod:%20Infinite%20Trading"
 logoFile="icon.png"
 
 [[mods]]
 modId="infinitetrading"
-version="5.0"
+version="5.1"
 displayName="Infinite Trading"
 displayURL="https://serilum.com/mod/infinite-trading"
-authors="Rick South"
+authors="Serilum"
 description='''Prevents villager and wandering trader trades from locking up, making them be always available.
 '''
 credits='''Thank you very much to my Membership sponsors for supporting the development of this mod:  
 
-akanealw, Andrean Olgo, aternosorg, Cherriesaurus, MWS, Tyler Behl, XAgent   
+Andrean Olgo, AnyankaT, aternosorg, Cherriesaurus, Linda Jansen, MWS, Tyler Behl   
 
-If you would like to contribute too, check out https://serilum.com/donate. Appreciate it! <3   
+If you would like to contribute too, check out https://serilum.com/donate Appreciate it! <3   
 '''
 
 [[dependencies.infinitetrading]]
     modId="collective"
     type="required"
-    versionRange="[8.21,)"
+    versionRange="[8.40,)"
     ordering="NONE"
     side="BOTH"
 

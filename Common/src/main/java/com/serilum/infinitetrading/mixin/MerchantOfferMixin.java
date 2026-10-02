@@ -1,8 +1,8 @@
-package com.natamus.infinitetrading.mixin;
+package com.serilum.infinitetrading.mixin;
 
 import com.natamus.collective.functions.EntityFunctions;
-import com.natamus.infinitetrading.util.MerchantOfferAccess;
-import com.natamus.infinitetrading.util.Util;
+import com.serilum.infinitetrading.util.MerchantOfferAccess;
+import com.serilum.infinitetrading.util.Util;
 import net.minecraft.world.entity.npc.AbstractVillager;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.trading.MerchantOffer;

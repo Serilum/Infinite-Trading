@@ -1,9 +1,9 @@
-package com.natamus.infinitetrading;
+package com.serilum.infinitetrading;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.infinitetrading.forge.config.IntegrateForgeConfig;
-import com.natamus.infinitetrading.util.Reference;
+import com.serilum.infinitetrading.forge.config.IntegrateForgeConfig;
+import com.serilum.infinitetrading.util.Reference;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;

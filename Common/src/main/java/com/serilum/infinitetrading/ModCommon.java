@@ -1,6 +1,6 @@
-package com.natamus.infinitetrading;
+package com.serilum.infinitetrading;
 
-import com.natamus.infinitetrading.config.ConfigHandler;
+import com.serilum.infinitetrading.config.ConfigHandler;
 
 public class ModCommon {
 
