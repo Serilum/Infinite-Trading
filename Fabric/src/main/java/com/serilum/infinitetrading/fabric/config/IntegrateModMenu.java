@@ -1,7 +1,7 @@
-package com.natamus.infinitetrading.fabric.config;
+package com.serilum.infinitetrading.fabric.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.infinitetrading.util.Reference;
+import com.serilum.infinitetrading.util.Reference;
 import com.terraformersmc.modmenu.api.ConfigScreenFactory;
 import com.terraformersmc.modmenu.api.ModMenuApi;
 

@@ -1,8 +1,8 @@
-package com.natamus.infinitetrading.util;
+package com.serilum.infinitetrading.util;
 
 public class Reference {
 	public static final String MOD_ID = "infinitetrading";
 	public static final String NAME = "Infinite Trading";
-	public static final String VERSION = "5.0";
+	public static final String VERSION = "5.1";
 	public static final String ACCEPTED_VERSIONS = "[26.2.0]";
 }

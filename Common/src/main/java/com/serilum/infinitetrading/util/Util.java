@@ -1,6 +1,6 @@
-package com.natamus.infinitetrading.util;
+package com.serilum.infinitetrading.util;
 
-import com.natamus.infinitetrading.config.ConfigHandler;
+import com.serilum.infinitetrading.config.ConfigHandler;
 import net.minecraft.world.entity.npc.villager.AbstractVillager;
 import net.minecraft.world.entity.npc.villager.Villager;
 import net.minecraft.world.entity.npc.wanderingtrader.WanderingTrader;
