@@ -3,6 +3,6 @@ package com.serilum.infinitetrading.util;
 public class Reference {
 	public static final String MOD_ID = "infinitetrading";
 	public static final String NAME = "Infinite Trading";
-	public static final String VERSION = "5.1";
+	public static final String VERSION = "6.0";
 	public static final String ACCEPTED_VERSIONS = "[1.21.1]";
 }
